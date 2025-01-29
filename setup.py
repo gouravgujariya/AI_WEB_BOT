@@ -165,7 +165,7 @@ def create_bat_file():
     project_dir = os.getcwd()
     bat_content = """@echo off
 REM navigate to the project directory
-cd /d "{project_dir}"
+cd  "{project_dir}"
 
 REM Open the WebUI in the default browser
 start "" "http://127.0.0.1:7788"
