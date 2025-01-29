@@ -617,12 +617,12 @@ def create_ui(theme_name="Ocean"):
     """
 
     with gr.Blocks(
-            title="Browser Use WebUI", theme=theme_map[theme_name], css=css, js=js
+            title="Browse Use", theme=theme_map[theme_name], css=css, js=js
     ) as demo:
         with gr.Row():
             gr.Markdown(
                 """
-                # 🌐 Browser Use WebUI
+                # 🌐 Browse Use
                 ### Control your browser with AI assistance
                 """,
                 elem_classes=["header-text"],
