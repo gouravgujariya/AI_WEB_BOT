@@ -22,6 +22,26 @@ Ensure that you have the following installed before running the project:
 - **Python 3.12** → [Download Python](https://www.python.org/downloads/release/python-3120/)
 - **GUI Toolkit: Tkinter** (included with Python 3.12)
 
+  ## Checking Python and Tkinter Versions
+
+Before running the project, make sure that Python 3.12 and Tkinter are correctly installed on your machine.
+
+### 1. Check Python Version
+
+Open a terminal or command prompt and run the following command:
+
+```bash
+python --version
+
+### 2. Check tkinter installation
+
+Open a terminal or command prompt and run the following command:
+
+```bash
+python -m tkinter
+
+
+
 ## Installation & Setup
 Follow these steps to set up and run AI Web Bot:
 
@@ -44,6 +64,12 @@ A GUI window will open.
 ### 4. Install Dependencies
 Click on the **Install Dependencies** button in the GUI. This will:
 - Install all required dependencies.
+
+  -Then install playwright:
+  ```sh
+ playwright install
+```
+  
 - Create a `.bat` file for launching the server.
 
 ### 5. Start the Server
